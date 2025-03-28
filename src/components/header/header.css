@@ -1,5 +1,5 @@
-header{
-    height: 100vh;
+/* header{
+    min-height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
 }
@@ -8,6 +8,30 @@ header{
     text-align: center;
     height: 100%;
     position: relative;
+} */
+
+header {
+    min-height: 100vh;
+    padding-top: 7rem;
+    overflow: visible !important;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+.me img {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: contain;
+    margin-top: 4rem;
+    border-radius: 69% 31% 35% 65% / 46% 40% 60% 54%   ;
 }
 
 /* CTA */
@@ -26,8 +50,8 @@ header{
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    left: 0;
-    bottom: 12rem;
+    left: 5rem;
+    bottom: 3rem;
 }
 
 .header__socials::after{
@@ -39,7 +63,7 @@ header{
 
 
 /* IMAGE */
-.me{
+/* .me{
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
     height: 30rem;
@@ -49,20 +73,43 @@ header{
     border-radius: 69% 31% 35% 65% / 46% 40% 60% 54%   ;
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
-}
+} */
 
 /* SCROLL DOWN */
 .scroll__down{
     position: absolute;
-    right: -2.3rem;
-    bottom: 15rem;
+    right: 0;
+    bottom: 3rem;
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
 }
 
 @media screen and (max-width:1024px){
+    header {
+        min-height: auto;
+        height: auto;
+        padding-bottom: 3rem; /* Reduce extra space */
+    }
 
+    .header__container {
+        gap: 1rem; /* Reduce spacing between elements */
+    }
+    .header__socials {
+        position: absolute;
+        left: 2rem;
+        top: 65%;
+        transform: translateY(-50%);
+    }
+
+    .scroll__down {
+        position: absolute;
+        right: 2rem;
+        top: 65%;
+        transform: translateY(-50%);
+        writing-mode: vertical-rl;
+        
+    }
 }
 
 @media screen and (max-width: 600px) {

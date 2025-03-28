@@ -27,6 +27,11 @@
     width: 100%;
     height: 100%;
     object-fit: cover; /* Ensures images maintain their aspect ratio */
+    transition: var(--transition);
+
+    &:hover{
+        transform: scale(1.1);
+    }
 }
 
 .portfolio__item h3 {

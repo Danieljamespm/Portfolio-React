@@ -1,17 +1,6 @@
-/* header{
-    min-height: 100vh;
-    padding-top: 7rem;
-    overflow: hidden;
-}
-
-.header__container{
-    text-align: center;
-    height: 100%;
-    position: relative;
-} */
 
 header {
-    min-height: 100vh;
+    min-height: 700px;
     padding-top: 7rem;
     overflow: visible !important;
 }
@@ -24,15 +13,7 @@ header {
     min-height: 100%;
 }
 
-.me img {
-    background: linear-gradient(var(--color-primary), transparent);
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    object-fit: contain;
-    margin-top: 4rem;
-    border-radius: 69% 31% 35% 65% / 46% 40% 60% 54%   ;
-}
+
 
 /* CTA */
 
@@ -49,9 +30,10 @@ header {
     flex-direction: column;
     align-items: center;
     gap: 0.8rem;
-    position: absolute;
+    position: fixed;
     left: 5rem;
-    bottom: 3rem;
+    top: 30rem;
+    font-size: 1.5rem;
 }
 
 .header__socials::after{
@@ -63,17 +45,15 @@ header {
 
 
 /* IMAGE */
-/* .me{
+.me img {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 30rem;
-    position: absolute;
-    left: calc(50% - 11rem);
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: contain;
     margin-top: 4rem;
     border-radius: 69% 31% 35% 65% / 46% 40% 60% 54%   ;
-    overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
-} */
+}
 
 /* SCROLL DOWN */
 .scroll__down{

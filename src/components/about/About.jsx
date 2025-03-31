@@ -38,7 +38,7 @@ const About = () => {
                 <small>20+ Completed</small>
               </article>
             </div>
-            <p>I'm a self-taught web developer with a passion for building responsive, user-friendly websites. With a background in business and problem-solving, I bring a unique perspective to web development. I specialize in HTML, CSS, and JavaScript, continuously learning to enhance my skills and create seamless digital experiences.
+            <p>I'm a self-taught web developer with a passion for building responsive, user-friendly websites. With a background in retail, hospitality, and running my own locksmith business, I bring problem-solving skills and adaptability to tech. I specialize in frontend and full-stack development, always eager to learn and grow. 
             </p>
 
             <a href="#contact" className='btn btn-primary'>Let's Connect</a>

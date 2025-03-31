@@ -19,10 +19,10 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href=""><FaFacebookSquare /></a>
-        <a href=""><BsTwitterX /></a>
-        <a href=""><BsLinkedin /></a>
-        <a href=""><BsGithub /></a>
+        <a href="https://www.facebook.com/mettlerwebdev/"><FaFacebookSquare /></a>
+        <a href="https://x.com/DanieljamesPM"><BsTwitterX /></a>
+        <a href="https://www.linkedin.com/in/danny-mettler/"><BsLinkedin /></a>
+        <a href="https://github.com/Danieljamespm"><BsGithub /></a>
       </div>
 
       <div className="footer__copyright">

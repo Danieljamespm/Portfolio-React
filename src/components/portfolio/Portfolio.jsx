@@ -40,7 +40,7 @@ const Portfolio = () => {
           <h5 className='text-light'>React, Express.js, MongoDB</h5>
           <div className='portfolio__item-cta'>
             <a href="https://github.com/Danieljamespm/Todo-Manager" className='btn' target='_blank'>Github</a>
-            <a href="https://todo-manager-mk0j.onrender.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://todo-manager-04oj.onrender.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
           
         </article>

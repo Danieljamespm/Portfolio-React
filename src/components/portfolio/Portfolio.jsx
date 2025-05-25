@@ -16,7 +16,7 @@ const Portfolio = () => {
             <img src={Expense} alt="Expense Tracker App" />
           </div>
           <h3>Expense Tracker App</h3>
-          <h5 className='text-light'>React, Tailwind, Axios, Authorization, Recharts, Hot-Toast</h5>
+          <h5 className='text-light'>React, Tailwind, MongoDB, Axios, Authorization, Recharts, Hot-Toast</h5>
           <div className='portfolio__item-cta'>
             <a href="https://github.com/Danieljamespm/ExpenseTracker" className='btn' target='_blank'>Github</a>
             <a href="https://expensetracker-mtu9.onrender.com/" className='btn btn-primary' target='_blank'>Live Demo</a>

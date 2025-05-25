@@ -3,6 +3,7 @@ import './portfolio.css'
 import Surelock from '../../assets/surelock-site.png'
 import Vintage from '../../assets/vintagecuts-site.png'
 import Todo from '../../assets/Todo-app.png'
+import Expense from '../../assets/expense-tracker.png'
 
 const Portfolio = () => {
   return (
@@ -10,6 +11,17 @@ const Portfolio = () => {
       <h5>Recent Work</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={Expense} alt="Expense Tracker App" />
+          </div>
+          <h3>Expense Tracker App</h3>
+          <h5 className='text-light'>React, Tailwind, Axios, Authorization, Recharts, Hot-Toast</h5>
+          <div className='portfolio__item-cta'>
+            <a href="https://github.com/Danieljamespm/ExpenseTracker" className='btn' target='_blank'>Github</a>
+            <a href="https://expensetracker-mtu9.onrender.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
+        </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={Surelock} alt="Surelock Homes Website" />

@@ -25,7 +25,7 @@ const About = () => {
               <article className="about__card">
                 <FaBrain className='about__icon' />
                 <h5>Experience</h5>
-                <small>2+ Years</small>
+                <small>5+ Years</small>
               </article>
               <article className="about__card">
                 <GrGroup className='about__icon' />

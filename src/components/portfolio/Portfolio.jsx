@@ -11,8 +11,8 @@ import Starwars from "../../assets/Starwars-port.png"
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>Recent Work</h5>
-      <h2>Portfolio</h2>
+
+      <h2>Projects</h2>
       <section>
         <div className="container portfolio__featured">
           <div className="portfolio__featured-gallery">

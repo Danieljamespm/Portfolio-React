@@ -11,6 +11,7 @@ const Header = () => {
         <h5>Hello I'm</h5>
         <h1>Danny Mettler</h1>
         <h5 className="text-light">Full Stack Developer</h5>
+        <p className='about'>I build responsive, full-stack web applications with React, Node.js, Express, and MongoDB, with a focus on clean interfaces and practical user experience.</p>
         <CTA />
         <HeaderSocials />
 
@@ -18,7 +19,7 @@ const Header = () => {
           <img src={ME} alt="Danny Mettler" />
         </div>
 
-        
+
 
       </div>
     </header>

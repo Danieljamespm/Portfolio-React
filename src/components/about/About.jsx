@@ -9,39 +9,25 @@ import { FaFolder } from "react-icons/fa";
 const About = () => {
   return (
     <section id='about'>
-      <h5>Get To Know</h5>
+
       <h2>About Me</h2>
 
       <div className="container about__container">
         <div className="about__me">
           <div className='about__me-image'>
-          <img src={ME} alt="picture of Danny Mettler" />
+            <img src={ME} alt="picture of Danny Mettler" />
           </div>
         </div>
 
 
         <div className="about__content">
-            <div className="about__cards">
-              <article className="about__card">
-                <FaBrain className='about__icon' />
-                <h5>Experience</h5>
-                <small>5+ Years</small>
-              </article>
-              <article className="about__card">
-                <GrGroup className='about__icon' />
-                <h5>Clients</h5>
-                <small>10+ Clients</small>
-              </article>
-              <article className="about__card">
-                <FaFolder className='about__icon' />
-                <h5>Projects</h5>
-                <small>20+ Completed</small>
-              </article>
-            </div>
-            <p>I'm a self-taught web developer with a passion for building responsive, user-friendly websites. With a background in retail, hospitality, and running my own locksmith business, I bring problem-solving skills and adaptability to tech. I specialize in frontend and full-stack development, always eager to learn and grow. 
-            </p>
 
-            <a href="#contact" className='btn btn-primary'>Let's Connect</a>
+          <p>I'm a full-stack developer focused on building practical, user-friendly applications from frontend to backend. I work primarily with React, JavaScript, Node.js, Express, and MongoDB, and enjoy understanding how every piece of an application connects—from the interface a user interacts with to the API and database behind it.</p>
+
+          <p>I'm currently developing LiftLab, a full-stack fitness application designed to help beginners discover exercises, build routines, and track their training. My background running my own business taught me how to solve real problems, work independently, and adapt quickly—skills I now bring to software development.
+          </p>
+
+          <a href="#contact" className='btn btn-primary'>Let's Connect</a>
         </div>
       </div>
 
